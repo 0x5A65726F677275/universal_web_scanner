@@ -287,7 +287,7 @@ ls results/target.com/*env*.txt
 ./js_secret_scanner.sh target.com
 ```
 
-## 💡 Pro Tips
+##  Pro Tips
 
 ### 1. Test High-Value Targets First
 
@@ -319,9 +319,9 @@ ls results/target.com/*env*.txt
 
 **Why:** May expose API keys and documentation
 
-## ⚠️ Testing Guidelines
+## Testing Guidelines
 
-### ✅ Allowed
+### Allowed
 
 - In-scope domains only
 - Own test accounts
@@ -329,7 +329,7 @@ ls results/target.com/*env*.txt
 - Manual verification
 - Responsible disclosure
 
-### ❌ Prohibited
+### Prohibited
 
 - Out-of-scope domains
 - DoS/DDoS attacks
@@ -338,7 +338,7 @@ ls results/target.com/*env*.txt
 - Other users' data
 - Data exfiltration
 
-## 🎓 Bug Bounty Programs
+## Bug Bounty Programs
 
 ### HackerOne
 
@@ -370,7 +370,7 @@ ls results/target.com/*env*.txt
 - Clear English reports
 - Video PoC preferred
 
-## 🔧 Customization
+## Customization
 
 ### Adjust Timeouts
 
@@ -393,7 +393,7 @@ CONFIG_PATHS=(
 )
 ```
 
-## 📊 Expected Results
+## Expected Results
 
 ### Per Target
 
@@ -411,7 +411,7 @@ CONFIG_PATHS=(
 - 1+ critical vulnerability
 - Multiple high-severity findings
 
-## 🚨 When You Find Critical Vulnerabilities
+## When You Find Critical Vulnerabilities
 
 ### Immediate Steps
 
@@ -429,7 +429,7 @@ CONFIG_PATHS=(
 4. Business impact explanation
 5. Remediation recommendations
 
-## 📝 Report Template
+## Report Template
 
 ### Critical Finding Structure
 
@@ -450,7 +450,7 @@ CONFIG_PATHS=(
 [How to fix]
 ```
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Error: "Permission denied"
 
@@ -480,7 +480,7 @@ sudo apt install -y whatweb nmap wafw00f
 - Check different paths manually
 - Use VPN if rate limited
 
-## 📚 Resources
+## Resources
 
 ### Bug Bounty Platforms
 
@@ -495,7 +495,7 @@ sudo apt install -y whatweb nmap wafw00f
 - API Security Top 10: https://owasp.org/www-project-api-security/
 - PortSwigger Academy: https://portswigger.net/web-security
 
-## ✅ Pre-Flight Checklist
+## Pre-Flight Checklist
 
 Before testing:
 
@@ -506,7 +506,7 @@ Before testing:
 - [ ] Authorization obtained
 - [ ] Test accounts ready (if needed)
 
-## 🎯 Quick Reference
+## Quick Reference
 
 ### Essential Commands
 
@@ -525,14 +525,14 @@ cat results/target.com/MASTER_REPORT.txt
 ### File Checklist
 
 ```
-✅ master_test.sh
-✅ quick_recon.sh
-✅ config_hunter.sh
-✅ js_secret_scanner.sh
-✅ api_discovery.sh
+ master_test.sh
+ quick_recon.sh
+ config_hunter.sh
+ js_secret_scanner.sh
+ api_discovery.sh
 ```
 
-## 📞 Support
+## Support
 
 For issues:
 1. Check script output for errors
@@ -540,7 +540,7 @@ For issues:
 3. Review generated reports
 4. Test manually if automated fails
 
-## 🎉 Success Formula
+## Success Formula
 
 1. **Developer portals first** - High credential exposure likelihood
 2. **JavaScript scanning** - Essential for finding secrets
@@ -550,7 +550,7 @@ For issues:
 
 ---
 
-**Ready to scan!** 🚀
+**Ready to scan!** 
 
 **Location:** `/home/kali/Documents/etc/universal_web_scanner`
 

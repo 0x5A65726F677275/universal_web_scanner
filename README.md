@@ -562,5 +562,5 @@ For issues:
 
 **v1.0** - Universal Web Security Scanner  
 **Updated:** October 2025  
-**License:** For authorized security testing only
+**License:** MIT License
 
